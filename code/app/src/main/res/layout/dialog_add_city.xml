@@ -6,7 +6,6 @@
     android:background="#FFFFFF"
     android:layout_gravity="center">
 
-    <!-- Input for city name -->
     <EditText
         android:id="@+id/cityInput"
         android:layout_width="match_parent"
@@ -14,10 +13,9 @@
         android:hint="Enter city name"
         android:inputType="text"
         android:padding="10dp"
-        android:backgroundTint="#4CAF50"
+        android:backgroundTint="#FFEBEE"
         android:layout_marginBottom="16dp" />
 
-    <!-- Confirm button -->
     <Button
         android:id="@+id/confirmButton"
         android:layout_width="match_parent"

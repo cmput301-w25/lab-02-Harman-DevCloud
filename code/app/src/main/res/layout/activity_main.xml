@@ -5,29 +5,28 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <!-- ListView for cities -->
     <ListView
         android:id="@+id/cityList"
         android:layout_width="0dp"
         android:layout_height="0dp"
-        android:layout_marginTop="16dp"
-        android:background="#F0F0F0"
+        android:layout_marginTop="0dp"
+        android:paddingTop="10dp"
+        android:background="#E6E6FA"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintBottom_toTopOf="@+id/buttonsLayout"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
 
-    <!-- LinearLayout for buttons -->
     <LinearLayout
         android:id="@+id/buttonsLayout"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="16dp"
         android:orientation="vertical"
-        android:padding="16dp"
+        android:padding="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent">
+        app:layout_constraintEnd_toEndOf="parent"
+        android:background="#F5F5DC">
 
         <!-- Button for adding a city -->
         <Button
@@ -41,7 +40,6 @@
             android:textColor="#FFFFFF"
             android:textStyle="bold" />
 
-        <!-- Button for deleting a city -->
         <Button
             android:id="@+id/deleteCityButton"
             android:layout_width="match_parent"
